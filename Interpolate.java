@@ -7,6 +7,6 @@ public class Interpolate {
     }
 
     public static void main(String[] args) {
-        System.out.println("Interpolated Y: " + interpolate(0, 0, 1, 1, 2)); 
+        System.out.println("Interpolated Y: " + interpolate(0, 0, 1, 1, 0.5)); 
     }
 }

@@ -1,4 +1,4 @@
-#include <stddef.h>
+#include <stdio.h>
 
 double interpolate(double firstX, double firstY, double secondX, double secondY, double interpolatedX) {
     if (firstX == secondX) {
@@ -8,6 +8,6 @@ double interpolate(double firstX, double firstY, double secondX, double secondY,
 }
 
 int main() {
-    printf("%d", interpolate(0, 0, 1, 1, 2))
+    printf("%f", interpolate(0, 0, 1, 1, 0.5));
     return 0;
 }
